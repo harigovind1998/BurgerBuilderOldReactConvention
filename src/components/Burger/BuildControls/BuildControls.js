@@ -11,6 +11,9 @@ const controls = [
 ];
 const buildControls = (props) => (
   <div className={cssClasses.BuildControls}>
+    <p>
+      Current Price: <strong>${props.price.toFixed(2)}</strong>
+    </p>
     {controls.map((obj) => {
       return (
         <BuildControl
@@ -22,6 +25,13 @@ const buildControls = (props) => (
         />
       );
     })}
+    <button
+      className={cssClasses.OrderButton}
+      disabled={!props.purchasable}
+      onClick={props.purchaseClick}
+    >
+      Order the special burger now
+    </button>
   </div>
 );
 
