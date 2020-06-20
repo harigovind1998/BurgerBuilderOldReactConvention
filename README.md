@@ -1,3 +1,9 @@
+## Summary
+
+This is side project for the course offered on [Udemy] (https://www.udemy.com/course/react-the-complete-guide-incl-redux/). The end product will allow you to create your own burger, displaying the cost of purchace as well as a display to view said burger. 
+
+This project uses reacts and will not be using Redux, as the course progress, I will be remodeling the entire project using Reacts new function based approach and Redux.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
