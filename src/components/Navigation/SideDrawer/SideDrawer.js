@@ -4,10 +4,13 @@ import Logo from "../../Logo/Logo";
 import NavigationItems from "../NavigationItems/NavigationItems";
 
 import cssClasses from "./SideDrawer.module.css";
+
 const sideDrawer = (props) => {
   return (
     <div className={cssClasses.SideDrawer}>
-      <Logo />
+      <div className={cssClasses.Logo}>
+        <Logo />
+      </div>
       <nav>
         <NavigationItems />
       </nav>
